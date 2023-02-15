@@ -7,7 +7,6 @@ import { formLayout3 } from "../layouts/formLayout3";
 const Form4 = () => {
     const [errorFields, setErrorFields] = useState([]);
 
-    validateForm();
 
     const handleChange = (e,field)=>{
       if(!e.target.value.length)return;
